@@ -1,0 +1,66 @@
+.aur_cont {
+    margin: 35px auto 0;
+    display: table;
+    height: auto;
+    width: 1200px;
+}
+.aur_cont :global .aur {
+    transform: skew(-0.06turn, 18deg);
+    display: block;
+    width: 0;
+    min-height: 122px;
+    float: left;
+    margin-left: 100px;
+    border-radius: 5% 52% 30px 20px;
+    opacity: 1;
+}
+.aur_cont :global .aur.aur_1 {
+    box-shadow: #4bff8b 0px 0px 100px 40px;
+    margin-top: 2px;
+    animation: topup 7031ms infinite linear;
+}
+.aur_cont :global .aur.aur_2 {
+    box-shadow: #4b718c 0px 0px 100px 40px;
+    margin-top: 27px;
+    animation: topup 10359ms infinite linear;
+}
+.aur_cont :global .aur.aur_3 {
+    box-shadow: #4bb044 0px 0px 100px 40px;
+    margin-top: 27px;
+    animation: topup 5515ms infinite linear;
+}
+.aur_cont :global .aur.aur_4 {
+    box-shadow: #4bd4ff 0px 0px 100px 40px;
+    margin-top: -30px;
+    animation: topup 11580ms infinite linear;
+}
+.aur_cont :global .aur.aur_5 {
+    box-shadow: #4bffa6 0px 0px 100px 40px;
+    margin-top: 0px;
+    animation: topup 6773ms infinite linear;
+}
+.aur_cont :global .aur.aur_6 {
+    box-shadow: #4b724a 0px 0px 100px 40px;
+    margin-top: 45px;
+    animation: topup 8622ms infinite linear;
+}
+.aur_cont :global .aur.aur_7 {
+    box-shadow: #4bb044 0px 0px 100px 40px;
+    margin-top: 0px;
+    animation: topup 11510ms infinite linear;
+}
+.aur_cont :global .aur.aur_8 {
+    box-shadow: #4be56f 0px 0px 100px 40px;
+    margin-top: 5px;
+    animation: topup 10258ms infinite linear;
+}
+.aur_cont :global .aur.aur_9 {
+    box-shadow: #4bb7ff 0px 0px 100px 40px;
+    margin-top: 9px;
+    animation: topup 12160ms infinite linear;
+}
+.aur_cont :global .aur.aur_10 {
+    box-shadow: #4bffff 0px 0px 100px 40px;
+    margin-top: -27px;
+    animation: topup 12931ms infinite linear;
+}
