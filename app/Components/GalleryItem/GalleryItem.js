@@ -26,7 +26,7 @@ const GalleryItem = props => {
         <>
             <figure
                 className={`
-                ${classes.root} rounded-md overflow-hidden shadow-md relative hover:scale-105 origin-bottom duration-300 cursor-pointer`}
+                ${classes.root} rounded-md overflow-hidden shadow-md relative hover:scale-[1.01] origin-bottom duration-300 cursor-pointer`}
                 style={{
                     '--tw-shadow-color': auraColor
                 }}
