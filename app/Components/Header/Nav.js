@@ -4,9 +4,13 @@ import Link from "next/link";
 import {useState} from "react";
 import {Drawer} from "rsuite";
 import { Fade as Hamburger } from 'hamburger-react'
-import MenuIcon from '@rsuite/icons/Menu';
+import classes from "./nav.module.css";
 
 const links = [
+    {
+        label: 'Головна',
+        path: '/'
+    },
     {
         label: 'Учні',
         path: '/students'
@@ -23,9 +27,10 @@ const links = [
 
 const Nav = props => {
     const [open, setOpen] = useState(false);
+    const handleClose = () => setOpen(false)
 
     return (
-        <div>
+        <div className={classes.root}>
             <button
                 onClick={() => setOpen(true)}
             >
@@ -37,8 +42,8 @@ const Nav = props => {
             </button>
             <Drawer
                 style={{'--rs-bg-overlay': "0, 0, 0"}}
-                className="max-w-[100vw] bg-black bg-[url('/appx.png')]  bg-contain bg-no-repeat bg-top"
-                open={open} onClose={() => setOpen(false)}
+                className={`${classes.drawer} max-w-[100vw] bg-black bg-[url('/appx.png')]  bg-contain bg-no-repeat bg-top`}
+                open={open} onClose={handleClose}
                 size={"xs"}
                 backdropClassName="backdrop-blur"
             >
@@ -49,6 +54,7 @@ const Nav = props => {
                                 <Link
                                     key={link.label}
                                     href={link.path}
+                                    onClick={handleClose}
                                 >
                                     {link.label}
                                 </Link>

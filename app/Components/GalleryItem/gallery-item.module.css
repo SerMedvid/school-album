@@ -1,0 +1,42 @@
+.root {
+    box-shadow: 0 3px 6px 1px var(--tw-shadow-color);
+}
+
+.root:hover {
+    box-shadow: 0 3px 10px 5px var(--tw-shadow-color);
+}
+
+.caption {
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 35%, transparent);
+}
+
+.modal :global .rs-modal-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.modal :global .rs-modal-header {
+    padding-bottom: 30px;
+}
+
+.modal :global .rs-modal-header .rs-modal-header-close {
+    font-size: 24px;
+}
+
+.modal :global .rs-modal-content {
+    padding: 20px 10px 0 10px;
+}
+.modal :global .rs-modal-content .rs-modal-body {
+    margin-top: 0;
+    padding-bottom: 0
+}
+
+.modal :global .rs-modal-content .rs-modal-body > img {
+    height: 100vh;
+    max-height: inherit;
+}
+
+
+/*.modal:global(.rs-modal) {*/
+/*    width: 700px*/
+/*}*/
