@@ -1,56 +1,74 @@
+import valentyna_riabokon from "./images/valentyna_riabokon.jpg"
+import hanna_karimova from "./images/hanna_karimova.jpg"
+import rada_hilova from "./images/rada_hilova.jpg"
+import anastasiia_popova from "./images/anastasiia_popova.jpg"
+import zhanna_zhdanova from "./images/zhanna_zhdanova.jpg"
+import iryna_krovopuskova from "./images/iryna_krovopuskova.jpg"
+import natalia_leonova from "./images/natalia_leonova.jpg"
+import iryna_bahriantseva from "./images/iryna_bahriantseva.jpg"
+import yevheniia_kushnir from "./images/yevheniia_kushnir.jpg"
+import yuliia_klimova from "./images/yuliia_klimova.jpg"
+
 export const data = [
     {
         id: 1,
-        img: '/teachers/valentyna_riabokon.jpg',
+        img: valentyna_riabokon,
         headline: 'Валентина Рябоконь',
-        text: 'Вчителька Інформатики'
+        text: 'Вчителька Інформатики',
+        priority: true
     },
     {
         id: 2,
-        img: '/teachers/hanna_karimova.jpg',
+        img: hanna_karimova,
         headline: 'Ганна Карімова',
         text: 'Вчителька Географії'
     },
     {
         id: 3,
-        img: '/teachers/rada_hilova.jpg',
+        img: rada_hilova,
         headline: "Рада Гільова",
         text: 'Вчителька Малювання'
     },
     {
         id: 4,
-        img: '/teachers/anastasiia_popova.jpg',
+        img: anastasiia_popova,
         headline: 'Анастасія Попова',
         text: 'Вчителька Хімії'
     },
     {
         id: 5,
-        img: '/teachers/zhanna_zhdanova.jpg',
+        img: zhanna_zhdanova,
         headline: 'Жанна Жданова',
         text: 'Вчителька Німецької мови'
     },
     {
         id: 6,
-        img: '/teachers/iryna_krovopuskova.jpg',
+        img: iryna_krovopuskova,
         headline: 'Ірина Кровопускова',
         text: 'Вчителька Німецької мови'
     },
     {
         id: 7,
-        img: '/teachers/natalia_leonova.jpg',
+        img: natalia_leonova,
         headline: 'Наталя Леонова',
         text: 'Вчителька Фізики'
     },
     {
         id: 8,
-        img: '/teachers/iryna_bahriantseva.jpg',
+        img: iryna_bahriantseva,
         headline: 'Ірина Багрянцева',
         text: 'Вчителька Хореографії'
     },
     {
         id: 9,
-        img: '/teachers/yevheniia_kushnir.jpg',
+        img: yevheniia_kushnir,
         headline: 'Євгенія Кушнір',
         text: 'Вчителька Моделювання'
+    },
+    {
+        id: 10,
+        img: yuliia_klimova,
+        headline: 'Юлія Клімова',
+        text: 'Вчителька Української Літератури та Мови'
     }
 ];

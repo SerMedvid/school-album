@@ -15,7 +15,8 @@ export const data = [
     {
         id: 2,
         img: image2,
-        headline: 'Фолкуян Діана'
+        headline: 'Фолкуян Діана',
+        priority: true
     },
     {
         id: 1,

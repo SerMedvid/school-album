@@ -16,7 +16,8 @@ const GalleryItem = props => {
         text,
         withModal,
         aspectRatio = 1,
-        auraColor = 'rgba(255,255,255,0.7)'
+        auraColor = 'rgba(255,255,255,0.7)',
+        ...rest
     } = props;
 
     const [open, setOpen] = useState(false)
@@ -36,7 +37,8 @@ const GalleryItem = props => {
             >
                 {
                     withModal &&
-                    <span                              title="Збільшити"
+                    <span
+                        title="Збільшити"
                     >
                          <ExpandOutlineIcon
                              className="absolute top-2 right-2 text-2xl"
@@ -52,10 +54,13 @@ const GalleryItem = props => {
                             width={400}
                             height={400 / aspectRatio}
                             style={{aspectRatio}}
+                            {...rest}
                         /> :
                         <Image
                             src={img}
                             alt={alt || headline}
+                            placeholder={'blur'}
+                            {...rest}
                         />
                 }
 
@@ -80,11 +85,11 @@ const GalleryItem = props => {
                     </Modal.Header>
                     <Modal.Body>
                         <Image
-                            className="object-contain max-h-[600px]"
+                            className="object-contain max-h-[600px] mx-auto"
                             src={img}
                             alt={alt || headline}
-                            width={1000}
-                            height={1000}
+                            height={img.height || 1000}
+                            width={img.width || 1000}
                         />
                     </Modal.Body>
                 </Modal>
@@ -102,7 +107,8 @@ GalleryItem.propTypes = {
     text: string,
     withModal: bool,
     auraColor: string,
-    aspectRatio: string
+    aspectRatio: string,
+    priority: bool
 }
 
 export default GalleryItem;

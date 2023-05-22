@@ -24,6 +24,7 @@ const Gallery = props => {
                     text={item.text}
                     alt={item.alt}
                     key={item.id}
+                    priority={item.priority}
                     {...itemsProps}
                 />
             ))}
