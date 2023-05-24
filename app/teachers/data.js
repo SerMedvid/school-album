@@ -8,67 +8,145 @@ import natalia_leonova from "./images/natalia_leonova.jpg"
 import iryna_bahriantseva from "./images/iryna_bahriantseva.jpg"
 import yevheniia_kushnir from "./images/yevheniia_kushnir.jpg"
 import yuliia_klimova from "./images/yuliia_klimova.jpg"
+import hanna_matvieieva from "./images/hanna_matvieieva.jpg"
+import natalia_lytvynenko from "./images/natalia_lytvynenko.jpg"
+import olena_brednieva from "./images/olena_brednieva.jpg"
+import tetiana_maiboroda from "./images/tetiana_maiboroda.jpg"
+import yaroslava_stemkovska from "./images/yaroslava_stemkovska.jpg"
+import liudmyla_letunova from "./images/liudmyla_letunova.jpg"
+import svitlana_verbytska from "./images/svitlana_verbytska.jpg"
+import maryna_abramian from "./images/maryna_abramian.jpg"
+import iryna_halkovych from "./images/iryna_halkovych.jpg"
+import tetiana_tarasenko from "./images/tetiana_tarasenko.jpg"
+import serhii_yevlampiiev from "./images/serhii_yevlampiiev.jpg"
 
 export const data = [
     {
-        id: 1,
+        id: 10,
+        img: hanna_matvieieva,
+        headline: 'Ганна Матвєєва',
+        text: 'Директор Миколаївського ліцею "Академія дитячої творчості"',
+        priority: true
+    },
+    {
+        id: 12,
+        img: olena_brednieva,
+        headline: 'Олена Бреднєва',
+        text: 'Заступник директора',
+    },
+    {
+        id: 15,
+        img: natalia_lytvynenko,
+        headline: 'Наталя Литвиненко',
+        text: 'Заступник директора з НВР'
+    },
+    {
+        id: 16,
+        img: tetiana_maiboroda,
+        headline: 'Тетяна Майборода',
+        text: 'Заступник директора з НВР'
+    },
+    {
+        id: 20,
+        img: yaroslava_stemkovska,
+        headline: 'Ярослава Стемковська',
+        text: 'Заступник директора з НВР'
+    },
+    {
+        id: 24,
+        img: liudmyla_letunova,
+        headline: 'Ганна Матвєєва',
+        text: 'Директор Миколаївського ліцею "Академія дитячої творчості"'
+    },
+    {
+        id: 30,
+        img: svitlana_verbytska,
+        headline: 'Світлана Вербицька',
+        text: 'Перша вчителька'
+    },
+    {
+        id: 35,
+        img: maryna_abramian,
+        headline: 'Марина Абрамян',
+        text: 'Вчителька Зарубіжної літератури'
+    },
+    {
+        id: 10,
+        img: iryna_halkovych,
+        headline: 'Ірина Галкович',
+        text: 'Шкільний психолог'
+    },
+    {
+        id: 100,
         img: valentyna_riabokon,
         headline: 'Валентина Рябоконь',
         text: 'Вчителька Інформатики',
         priority: true
     },
     {
-        id: 2,
+        id: 200,
         img: hanna_karimova,
         headline: 'Ганна Карімова',
         text: 'Вчителька Географії'
     },
     {
-        id: 3,
+        id: 300,
         img: rada_hilova,
         headline: "Рада Гільова",
         text: 'Вчителька Малювання'
     },
     {
-        id: 4,
+        id: 400,
         img: anastasiia_popova,
         headline: 'Анастасія Попова',
         text: 'Вчителька Хімії'
     },
     {
-        id: 5,
+        id: 500,
         img: zhanna_zhdanova,
         headline: 'Жанна Жданова',
         text: 'Вчителька Німецької мови'
     },
     {
-        id: 6,
+        id: 600,
         img: iryna_krovopuskova,
         headline: 'Ірина Кровопускова',
         text: 'Вчителька Німецької мови'
     },
     {
-        id: 7,
+        id: 700,
         img: natalia_leonova,
         headline: 'Наталя Леонова',
         text: 'Вчителька Фізики'
     },
     {
-        id: 8,
+        id: 800,
         img: iryna_bahriantseva,
         headline: 'Ірина Багрянцева',
         text: 'Вчителька Хореографії'
     },
     {
-        id: 9,
+        id: 900,
         img: yevheniia_kushnir,
         headline: 'Євгенія Кушнір',
         text: 'Вчителька Моделювання'
     },
     {
-        id: 10,
+        id: 1000,
         img: yuliia_klimova,
         headline: 'Юлія Клімова',
         text: 'Вчителька Української Літератури та Мови'
+    },
+    {
+        id: 1010,
+        img: tetiana_tarasenko,
+        headline: 'Тетяна Тарасенко',
+        text: 'Вчителька Біології'
+    },
+    {
+        id: 1020,
+        img: serhii_yevlampiiev,
+        headline: 'Сергій Євлампієв',
+        text: 'Вчитель ДПМ'
     }
 ];

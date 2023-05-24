@@ -11,7 +11,9 @@ export default function Home() {
               <section className="w-full h-full self-center	flex">
                   <div className="self-center justify-center text-center font-[700]">
                       <h1 className="text-3xl md:text-5xl mb-4">Випускний альбом </h1>
-                      <h2 className="text-2xl md:text-3xl">Академії Дитячої Творчості </h2>
+                      <h2 className="text-2xl md:text-3xl mb-2">Миколаївький ліцей "Академія дитячої творчості"</h2>
+                      <h2 className="text-2xl md:text-3xl mb-4">9-В</h2>
+                      <p className="text-lg">випуск 2022-2023 н.р</p>
                   </div>
               </section>
           </AnimatedLayout>
