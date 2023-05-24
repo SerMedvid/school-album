@@ -25,7 +25,7 @@ export const data = [
         id: 10,
         img: hanna_matvieieva,
         headline: 'Ганна Матвєєва',
-        text: 'Директор Миколаївського ліцею "Академія дитячої творчості"',
+        text: 'Директор Миколаївського ліцею &quot;Академія дитячої творчості&quot;',
         priority: true
     },
     {
