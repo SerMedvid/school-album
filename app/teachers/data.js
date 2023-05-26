@@ -19,6 +19,7 @@ import maryna_abramian from "./images/maryna_abramian.jpg"
 import iryna_halkovych from "./images/iryna_halkovych.jpg"
 import tetiana_tarasenko from "./images/tetiana_tarasenko.jpg"
 import serhii_yevlampiiev from "./images/serhii_yevlampiiev.jpg"
+import inna_simchenko from "./images/inna_simchenko.jpg"
 
 export const data = [
     {
@@ -71,7 +72,7 @@ export const data = [
         text: 'Вчителька Зарубіжної літератури'
     },
     {
-        id: 10,
+        id: 40,
         img: iryna_halkovych,
         headline: 'Ірина Галкович',
         text: 'Шкільний психолог'
@@ -80,8 +81,7 @@ export const data = [
         id: 100,
         img: valentyna_riabokon,
         headline: 'Валентина Рябоконь',
-        text: 'Вчителька Інформатики',
-        priority: true
+        text: 'Вчителька Інформатики'
     },
     {
         id: 200,
@@ -136,6 +136,12 @@ export const data = [
         img: yuliia_klimova,
         headline: 'Юлія Клімова',
         text: 'Вчителька Української Літератури та Мови'
+    },
+    {
+        id: 1005,
+        img: inna_simchenko,
+        headline: 'Інна Сімченко',
+        text: 'Вчителька Англійської мови'
     },
     {
         id: 1010,
